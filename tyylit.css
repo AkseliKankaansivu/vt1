@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    color: black;
+}
+table, th, td {
+    border: 2px dotted black;
+    border-collapse: collapse; 
+    vertical-align: top;
+    text-align: left; 
+}
+table ul {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+div {
+    display: inline-table; 
+}
+div:nth-child(1) div:nth-child(1) div:nth-child(1) {
+    border: 1px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+div:nth-of-type(2) {
+    margin-left: 1em;
+    width: 20%;
+    border: 1px solid black;
+    padding-top: 0.65em;
+}
+div:nth-of-type(3) {
+    border: 1px solid black;
+    margin-left: 1em;
+    width: 17em;
+    padding-left: 1em;
+}
+form {
+    margin: 1em;   
+}
+form:first-of-type fieldset label {
+    display: block; 
+    font-weight: bold;
+    margin-top: 1em;
+}
+form:first-of-type fieldset label input {
+    display: block;
+    float: right;
+}
+form:nth-of-type(2) fieldset label{
+    display: block;
+}
+fieldset:nth-child(5){ 
+    border: none;
+}
+fieldset:nth-child(1) > label:nth-child(2) {
+    font-weight: bold;  
+}
+fieldset:nth-child(4) {
+    float: right;
+    border: none;
+    margin-top: 1em;
+}
+fieldset:nth-child(4) label{
+    margin: 0.5em;
+}
+fieldset:nth-child(4) label input{
+    display: block;
+    float: right;
+}
+fieldset:nth-child(3) {
+    border: none;
+    float: right;
+    margin-top: 1em;
+}
+fieldset:nth-child(3) label {
+    margin: 0.5em;
+}
+legend {
+    font-weight: bold;
+}
+div:nth-of-type(3) ul li div{
+    display: block;
+}
+ul:nth-child(4) li {
+    margin-top: 0.2em;
+}
+ul:nth-child(4) li span{
+    display: block;
+    float: right;
+    margin-right: 0.4em; 
+}
+td:nth-child(4) ul:nth-child(1) li {
+    display: inline-block;
+    margin-left: 0.3em;
+}
+.red {
+    color: red;
+    margin-left: 0.2em;
+}
+td:nth-child(3) ul:nth-child(1) {
+    margin-left: 1em;
+}
+
+
+
+
